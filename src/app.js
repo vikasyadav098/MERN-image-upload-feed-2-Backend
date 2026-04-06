@@ -2,8 +2,8 @@ const express=require('express')
 const cors = require('cors')
 
 const multer=require('multer');
-const uploadFile=require('./services/storage.service')
-const postModel=require('./MOdels/post.model')
+const uploadFile=require('./Services/storage.service')
+const postModel=require('./Models/post.model')
 
 const app=express();
 app.use(cors({}))
